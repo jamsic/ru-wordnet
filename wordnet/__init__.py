@@ -1,0 +1,2 @@
+from .wordnet import Wordnet
+

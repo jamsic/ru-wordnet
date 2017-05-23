@@ -1,7 +1,7 @@
-from wordnet_db_connector import Wordnet_dbconnector
-from word import Word
+from .wordnet_db_connector import Wordnet_dbconnector
+from .word import Word
 from collections import defaultdict
-from synset import Synset
+from .synset import Synset
 
 
 class Wordnet:
@@ -54,7 +54,7 @@ class Wordnet:
         return {sid for sid in self.synsets if sid not in self.hyperonyms}
 
     def get_sids(self, word):
-        return {self.sids_by_wid[w] for w in self.wids_by_word.get(word, [])}
+        return {self.sids_by_wid[w] for w in self.wids_by_word.get(word, []) if w in self.sids_by_wid}
 
     def get_words(self, word):
         return {self.words[w] for w in self.wids_by_word.get(word, [])}

@@ -14,6 +14,7 @@ class Wordnet_dbconnector:
         if not os.path.exists(directory):
             os.makedirs(directory)
         filename = os.path.join(directory, self.DB_NAME)
+        filename = os.path.join(os.path.dirname(__file__), filename)
         self.db = sqlite3.connect(filename, check_same_thread=False)
         self.cur = self.db.cursor()
         self.cur.execute('''PRAGMA foreign_keys = ON;''')
