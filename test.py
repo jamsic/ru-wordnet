@@ -2,14 +2,6 @@ from wordnet import Wordnet
 
 wordn = Wordnet()
 
-word = 'собака'
-word = 'овчарка'
-word = 'жизнь'
-word = 'существование'
-word = 'бытие'
-word = 'млекопитающее'
-word = 'медвежонок'
-word = 'петун'
 word = 'медведь'
 words = wordn.get_words(word)
 # все значения слова
