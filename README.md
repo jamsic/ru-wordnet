@@ -5,6 +5,10 @@ Example file is test.py
 Steps to success:
 
 install package via pip install wiki-ru-wordnet
+
 download and run test.py
+
 enjoy!
+
+
 Note: originally developed with python 3.4, take care of unicode if you are using python2!
