@@ -1,4 +1,10 @@
-Github запрещает большие файлы, поэтому базу нужно скачать отсюда https://www.dropbox.com/s/oqpp31lq1r3dwzp/wordnet.db?dl=0 и скопировать в директорию wordnet/
-После этого можно запускать test.py
+Базу можно скачать отсюда https://www.dropbox.com/s/w4w4lny53txe6qv/wordnet.db?dl=0
 
-Note: разрабатывалось на python 3.4
+Example file is test.py
+
+Steps to success:
+
+install package via pip install wiki-ru-wordnet
+download and run test.py
+enjoy!
+Note: originally developed with python 3.4, take care of unicode if you are using python2!

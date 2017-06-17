@@ -11,8 +11,6 @@ class Wordnet_dbconnector:
     def __init__(self, directory=None):
         if not directory:
             directory = self.DIRECTORY
-        if not os.path.exists(directory):
-            os.makedirs(directory)
         filename = os.path.join(directory, self.DB_NAME)
         filename = os.path.join(os.path.dirname(__file__), filename)
         self.db = sqlite3.connect(filename, check_same_thread=False)

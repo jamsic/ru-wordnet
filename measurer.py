@@ -1,4 +1,4 @@
-from wordnet import Wordnet
+from wiki_ru_wordnet import Wordnet
 import numpy as np
 
 
