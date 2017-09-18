@@ -1,3 +1,0 @@
-download database from https://www.dropbox.com/s/oqpp31lq1r3dwzp/wordnet.db?dl=0 and place here.
-
-cкачайте базу данных отсюда https://www.dropbox.com/s/oqpp31lq1r3dwzp/wordnet.db?dl=0 и поместите сюда

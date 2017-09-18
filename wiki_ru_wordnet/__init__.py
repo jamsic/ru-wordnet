@@ -1,2 +1,2 @@
-from .wordnet import Wordnet
+from .wiki_wordnet import WikiWordnet
 
