@@ -1,4 +1,4 @@
-Базу можно скачать отсюда https://www.dropbox.com/s/w4w4lny53txe6qv/wordnet.db?dl=0
+Базу можно скачать отсюда https://www.dropbox.com/s/gcotdoeqmhlor4j/wikiwordnet.db?dl=0
 
 Example file is test.py
 
