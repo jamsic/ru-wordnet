@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # wiki-ru-wordnet documentation build configuration file, created by
-# sphinx-quickstart on Mon Sep 18 23:35:17 2017.
+# sphinx-quickstart on Tue Sep 19 19:04:38 2017.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -105,6 +105,8 @@ pygments_style = 'sphinx'
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
+
+html_show_sourcelink = False
 
 
 # -- Options for HTML output ----------------------------------------------

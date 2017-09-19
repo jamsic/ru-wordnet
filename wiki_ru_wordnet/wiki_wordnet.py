@@ -184,8 +184,10 @@ class WikiWordnet:
 
     def _get_lowest_common_nyms(self, synset1, synset2, nym_fun, max_level=10):
         common_nyms = nym_fun(synset1, synset2, max_level=max_level)
-        min_level = min([a + b for cn, a, b in common_nyms])
-        return [cn for cn in common_nyms if cn[1] + cn[2] == min_level]
+        if common_nyms:
+            min_level = min([a + b for cn, a, b in common_nyms])
+            return [cn for cn in common_nyms if cn[1] + cn[2] == min_level]
+        return []
 
     def get_lowest_common_hypernyms(self, synset1, synset2, max_level=10):
         """Возвращает ближайший общий гипероним синсетов syn1 и syn2

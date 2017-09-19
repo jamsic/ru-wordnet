@@ -1,15 +1,16 @@
 Базу можно скачать отсюда https://www.dropbox.com/s/gcotdoeqmhlor4j/wikiwordnet.db?dl=0
 
-Example file is test.py
+wiki-ru-wordnet -- это семантическая сеть типа WordNet для русского языка, составленная из данных русского Викисловаря (https://ru.wiktionary.org/).
 
-Your steps to success:
+Она умеет:
 
-1. install package via pip install wiki-ru-wordnet
+1. выдавать синсеты, содержащие заданное слово;
 
-2. download and run test.py
+2. выдавать гиперонимы и гипонимы заданных синсетов;
 
-3. enjoy!
+3. искать общие гиперонимы и гипонимы для двух синсетов.
 
-The rest of the code might be a little bit outdated.
+Распространяется по лицензии MIT.
 
-Note: originally developed with python 3.4, take care of unicode if you are using python2!
+Более подробную документацию можно посмотреть здесь http://wiki-ru-wordnet.readthedocs.io/en/latest/
+
