@@ -1,0 +1,2 @@
+go to https://github.com/nlpub/russe-evaluation/tree/master/russe/evaluation
+pull and read readme. Than use test-words.csv for evaluation (./evaluate_test.py test-words.csv)
